@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Webpage</title>
+    <style>
+        /* Your existing CSS styles for navbar, body, etc. */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        nav {
+            background-color: #555;
+            color: white;
+            padding: 0.5em;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Website Name</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="mapagehtml.php">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="main-content">
+        <!-- Default content -->
+        <h2>Welcome to our website!</h2>
+        <p>This is the main content of your webpage.</p>
+    </section>
+    <footer>
+        <p>&copy; 2023 Your Website Name. All rights reserved.</p>
+    </footer>
+
+    <!-- Your JavaScript for changing content -->
+    <script>
+        function changeContent() {
+            // Example: Change the content when a button is clicked
+            document.getElementById('main-content').innerHTML = '<h2>New Content</h2><p>This is the updated content.</p>';
+        }
+    </script>
+</body>
+</html>
